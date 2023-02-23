@@ -5,9 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Tick歷史合併訂閱"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="604" Width="809">
     <Grid>
-        <Button Content="Button" Margin="0,0,426,291" Click="Button_Click"/>
+        <Button Content="Login" Margin="10,10,0,0" Click="Button_Login_Click"  HorizontalAlignment="Left" VerticalAlignment="Top" Height="53" Width="155" />
+        <Button Content="Place Order" HorizontalAlignment="Left" Margin="333,10,0,0" VerticalAlignment="Top" Height="53" Width="139" Click="Button_Click_2" RenderTransformOrigin="0.802,0.899"/>
+        <Button Content="Cancel Order" HorizontalAlignment="Left" Margin="477,10,0,0" VerticalAlignment="Top" Height="53" Width="131" Click="Button_Click_1"/>
+        <Button Content="Get Trades" HorizontalAlignment="Left" Margin="170,10,0,0" VerticalAlignment="Top" Height="53" Width="158" Click="Button_Click_3"/>
+        <Button Content="Test" HorizontalAlignment="Left" Margin="613,10,0,0" VerticalAlignment="Top" Height="51" Width="130" Click="Button_Click_4"/>
+        <DataGrid x:Name="DataGrid_History" Margin="10,162,0,0" Height="411" Width="406" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <DataGrid x:Name="DataGrid_Live" Margin="421,162,0,0" Height="411" Width="374" VerticalAlignment="Top" HorizontalAlignment="Left" />
+        <Label Content="歷史Tick" HorizontalAlignment="Left" Margin="10,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.025,0.307"/>
+        <Label Content="實時Tick" HorizontalAlignment="Left" Margin="421,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.025,0.307"/>
+        <Label Content="最後總量:" HorizontalAlignment="Left" Margin="78,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.208,0.756"/>
+        <Label x:Name="Label_History總量"  Content="{Binding 歷史總量, Mode=TwoWay}" HorizontalAlignment="Left" Margin="139,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.208,0.756"/>
+        <Label Content="最後總量:" HorizontalAlignment="Left" Margin="491,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.208,0.756"/>
+        <Label x:Name="Label_Live總量"  Content="{Binding 實時總量, Mode=TwoWay}" HorizontalAlignment="Left" Margin="552,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.208,0.756"/>
+        <Label Content="筆數:" HorizontalAlignment="Left" Margin="212,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.208,0.756"/>
+        <Label x:Name="Label_History筆數"  Content="{Binding 歷史筆數, Mode=TwoWay}" HorizontalAlignment="Left" Margin="249,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.208,0.756"/>
+        <Label Content="筆數:" HorizontalAlignment="Left" Margin="636,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.208,0.756"/>
+        <Label x:Name="Label_Live筆數"  Content="{Binding 實時筆數, Mode=TwoWay}" HorizontalAlignment="Left" Margin="673,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.208,0.756"/>
+        <Label Content="真實總量:" HorizontalAlignment="Left" Margin="78,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.208,0.756"/>
+        <Label x:Name="Label_History真實總量"  Content="{Binding 歷史真實總量, Mode=TwoWay}" HorizontalAlignment="Left" Margin="139,112,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.208,0.756"/>
 
     </Grid>
 </Window>

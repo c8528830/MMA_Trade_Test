@@ -1,0 +1,14 @@
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\bin\Debug\FrDLL.dll
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\bin\Debug\FrDLL.pdb
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\bin\Debug\Apache.Arrow.dll
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\bin\Debug\MessagePack.Annotations.dll
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\bin\Debug\MessagePack.dll
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\bin\Debug\Sinopac.Shioaji.dll
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\bin\Debug\SolaceSystems.Solclient.Messaging.dll
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\bin\Debug\Newtonsoft.Json.dll
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\obj\Debug\FrDLL.csproj.AssemblyReference.cache
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\obj\Debug\FrDLL.csproj.CoreCompileInputs.cache
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\obj\Debug\FrDLL.csproj.CopyComplete
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\obj\Debug\FrDLL.dll
+H:\Project\StockAutoCrawler\MMA_Trade_Test\Tick歷史合併訂閱\FrDLL\obj\Debug\FrDLL.pdb
